@@ -112,3 +112,23 @@ footer {
   text-align: center;
   padding: 15px;
 } 
+
+/* RESPONSIVE */
+ @media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feature-cards {
+    flex-direction: column;
+  }
+
+} 
+
