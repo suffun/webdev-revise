@@ -41,3 +41,38 @@ body {
   transform: translateY(-10px);
   box-shadow: 0 15px 30px rgba(0,0,0,0.15);
 }
+.popular {
+  border: 2px solid orange;
+}
+.price {
+  font-size: 28px;
+  margin: 20px 0;
+  color: orange;
+}
+.card ul {
+  list-style: none;
+  margin: 20px 0;
+}
+.card li {
+  margin: 10px 0;
+}
+.card button {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.card button:hover {
+  background: orange;
+}
+
+@media (max-width: 768px) {
+
+  .plans {
+    flex-direction: column;
+  }
+
+}
