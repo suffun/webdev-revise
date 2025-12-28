@@ -16,3 +16,9 @@ if(marks>=35){
 else{
     console.log("student is failed");
 }
+
+// questions
+let msg = "help!";
+console.log(msg.trim().toUpperCase());
+
+let name = SufiyanKhan;
