@@ -21,4 +21,26 @@ else{
 let msg = "help!";
 console.log(msg.trim().toUpperCase());
 
-let name = SufiyanKhan;
+
+
+// array
+
+let arr = ["january", "july", "march", "august"];
+console.log(arr.splice(0,2,"july","june"));
+console.log(arr);
+
+// for loop
+for(let i=1; i<=10; i++){
+    console.log(i);
+}
+
+// favourote movie game
+
+let fav_movie = "avatar";
+let guess = prompt("guess the favourite movie");
+
+if(fav_movie==guess){
+    console.log("Congratulations you cracked it!!");
+}else{
+    prompt("OOps guess again");
+}
