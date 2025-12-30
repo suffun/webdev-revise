@@ -52,3 +52,12 @@ let dice = Math.floor(Math.random()*6)+1;
 function rollDice(){
     console.log(dice);
 }
+
+// higher order function
+
+function greet() {
+  console.log("Hello");
+}
+
+let sayHello = greet; // function stored in variable
+sayHello(); // Hello
