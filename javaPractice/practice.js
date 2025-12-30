@@ -36,11 +36,19 @@ for(let i=1; i<=10; i++){
 
 // favourote movie game
 
-let fav_movie = "avatar";
-let guess = prompt("guess the favourite movie");
+// let fav_movie = "avatar";
+// let guess = prompt("guess the favourite movie");
 
-if(fav_movie==guess){
-    console.log("Congratulations you cracked it!!");
-}else{
-    prompt("OOps guess again");
+// if(fav_movie==guess){
+//     console.log("Congratulations you cracked it!!");
+// }else{
+//     prompt("OOps guess again");
+// }
+
+// create a function to roll a dice
+
+let dice = Math.floor(Math.random()*6)+1;
+
+function rollDice(){
+    console.log(dice);
 }
