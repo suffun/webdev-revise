@@ -7,3 +7,14 @@ function calculate(x, y, operation) {
 }
 
 console.log(calculate(5, 3, add));
+
+function a() {
+  console.log("A");
+}
+
+function b() {
+  a();
+  console.log("B");
+}
+
+b();
