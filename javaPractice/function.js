@@ -18,3 +18,20 @@ function b() {
 }
 
 b();
+function multiplier(factor) {
+  return function(num) {
+    return num * factor;
+  };
+}
+
+const double = multiplier(2);
+console.log(double(5));
+
+
+function greet(name, callback) {
+  callback(name);
+}
+
+greet("Sufiyan", function(n) {
+  console.log("Hello " + n);
+});
