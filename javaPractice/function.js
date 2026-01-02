@@ -68,3 +68,9 @@ let arr = [{
 arr.forEach((element) => {
     console.log(element.name);
 });
+
+let num = [1,2,3,4,5,6];
+
+let dbl = num.map((ele)=>{
+    return ele*2;
+});
