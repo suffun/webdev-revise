@@ -35,3 +35,14 @@ function greet(name, callback) {
 greet("Sufiyan", function(n) {
   console.log("Hello " + n);
 });
+
+
+let square = (n) => {
+    return n*n;
+}
+let id = setInterval(()=> {
+    console.log("HELLO SUFIYAN BRO");
+},2000);
+setTimeout(()=>{
+    clearInterval(id);
+},10000);
