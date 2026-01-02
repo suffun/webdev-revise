@@ -46,3 +46,25 @@ let id = setInterval(()=> {
 setTimeout(()=>{
     clearInterval(id);
 },10000);
+
+let arr = [{
+    name : "sufiyan",
+    marks: 100,
+},
+{
+    name : "yan",
+    marks: 00,
+},
+{
+    name : "fiyan",
+    marks: 90,
+},
+{
+    name : "sufi",
+    marks: 10,
+},
+];
+
+arr.forEach((element) => {
+    console.log(element.name);
+});
