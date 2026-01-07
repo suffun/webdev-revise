@@ -16,7 +16,11 @@ app.get("/ig/:username", (req,res)=>{
     let {username} = req.params;
     const instaData = require("./data.json");
     const data = instaData[username];
-    res.render("instagram",{data });
+    if(data){
+       res.render("instagram",{data });
+    }else{
+      res.render("error");
+    }
 });
 
 let port = 3000;
