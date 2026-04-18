@@ -1,5 +1,6 @@
 // import "./App.css";
-import MsgBox from "./MsgBox";
+// import MsgBox from "./MsgBox";
+import ProductTab from "./ProductTab";
 
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
 
   return (
     <>
-    <MsgBox userName="sufiyan" textColor="blue"/>
+    {/* <MsgBox userName="sufiyan" textColor="blue"/> */}
+    
+    <ProductTab />
     </>
   )
 }
